@@ -1,0 +1,27 @@
+.clients-container {
+ /* position: absolute; */
+padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients-images {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+@media only screen and (max-width:475px) {
+    
+    .clients-container-images{
+        position: relative;
+    }
+    .clients-images {
+        width: 90%;
+        object-fit: contain;
+        height: 200px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+      }
+}

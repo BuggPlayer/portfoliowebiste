@@ -1,0 +1,11 @@
+.testimonial-container{
+    display: flex;justify-content: center;
+    padding: 100px 0;
+}
+.testimonial-content{
+    text-align: center;
+    padding: 5px 0;
+}
+.testimonial-card{
+    display: flex;
+}

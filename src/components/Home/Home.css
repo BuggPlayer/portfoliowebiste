@@ -2,3 +2,42 @@
   height: 100vh;
   background-color: lightblue;
 }
+.hero-img {
+  width: 420px;
+}
+.home-content-container {
+  display: inline-block;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.content-title {
+  font-size: 50px;
+}
+.content-desc {
+  margin: 40px 0;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.our-vision-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size: 20px;
+  border-width: 0;
+}
+.home-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 475px) {
+  .home-image-container {
+    display: none;
+  }
+}

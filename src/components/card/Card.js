@@ -1,23 +1,9 @@
 import React from "react";
-
+import "./Card.css";
 const Card = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "GrayText",
-        height: 250,
-        width: 200,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        borderRadius: 5,
-        border: 2,
-        boxShadow: 10,
-        elevation: 5,
-        margin: 10,
-      }}
-    >
-      <div style={{ width: 140 }}>
+    <div className="cards">
+      <div className="card-container">
         <h1>icon</h1>
         <h3>VPS</h3>
         <h3>

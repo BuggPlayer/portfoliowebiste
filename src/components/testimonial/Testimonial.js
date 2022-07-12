@@ -1,29 +1,22 @@
 import React from "react";
 import TestinonialCard from "./TestinonialCard";
-
+import "./testimonial.css";
 const Testimonial = () => {
   return (
     <div style={{ backgroundColor: "lightblue", height: "100vh" }}>
-      <div
-        style={{
-          // backgroundColor: "red",
-          display: "flex",
-          justifyContent: "center",
-          paddingTop: 100,
-        }}
-      >
-        <div>
-          <h1 style={{ textAlign: "center" }}>CUSTOMER SAYS</h1>
-          <h1 style={{ textAlign: "center" }}>Our satisfied customer says</h1>
+      <div className="testimonial-container">
+        <div className="testimonial-content-container">
+          <h1 className="testimonial-content">CUSTOMER SAYS</h1>
+          <h1 className="testimonial-content">Our satisfied customer says</h1>
 
-          <p style={{ textAlign: "center", marginTop: 10 }}>
+          <p className="testimonial-content">
             Far far away, behind the word mountains, far from the countries
             Vokalia and
           </p>
-          <p style={{ textAlign: "center" }}>
+          <p className="testimonial-content">
             Consonantia, there live the blind texts. Separated they live in
           </p>
-          <div style={{ display: "flex" , marginTop:40 }}>
+          <div className="testimonial-card">
             {[1, 2, 3, 4].map((item) => (
               <TestinonialCard />
             ))}

@@ -2,65 +2,26 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import HeroImage from "../../assets/image/heroimage.png";
 import "./Home.css";
+import { Grid } from "@mui/material";
 const Home = () => {
   return (
     <section className="home-hero">
-      <Navbar />
-
-      <div
-        style={{
-          // backgroundColor: "green",
-          height: "86vh",
-          display: "flex",
-          justifyContent: "space-between",
-          padding: 30,
-        }}
-      >
-        <div
-          style={{
-            // backgroundColor: "gray",
-            flex: 1,
-          }}
-        >
-          <div
-            style={{
-              // backgroundColor: "lightseagreen",
-              display: "inline-block",
-              marginTop: 90,
-              marginLeft: 20,
-            }}
-          >
-            <p style={{ fontSize: 40 }}>Thoughts , On Internet</p>
-            <p style={{ marginTop: 50, fontSize: 30 }}>
+      {/* <Navbar /> */}
+      <Grid container className="home-hero">
+        <Grid item md={6} xs={12} className="home-content-container">
+          <div>
+            <p className="content-title">Thoughts , On Internet</p>
+            <p className="content-desc">
               we understand you , and put your
               <br /> thoughts on internet
             </p>
-            <button
-              style={{
-                width: 200,
-                height: 40,
-                borderRadius: 10,
-                marginTop: 50,
-                fontSize: 20,
-                borderWidth: 0,
-              }}
-            >
-              Our Vision
-            </button>
+            <button className="our-vision-btn">Our Vision</button>
           </div>
-        </div>
-        <div
-          style={{
-            // backgroundColor: "lightgreen",
-            flex: 1,
-            // alignItems: "center",
-            // alignContent: "center",
-            // display: "flex",
-          }}
-        >
-          <img style={{ width: 420 }} src={HeroImage} />
-        </div>
-      </div>
+        </Grid>
+        <Grid item md={6} xs={12} className="home-image-container">
+          <img className="hero-img" src={HeroImage} alt="" />
+        </Grid>
+      </Grid>
     </section>
   );
 };
