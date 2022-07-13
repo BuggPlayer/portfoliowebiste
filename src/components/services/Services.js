@@ -7,8 +7,8 @@ import Card from "../card/Card";
 const Services = () => {
   return (
     <div className="services">
-      <Grid container >
-        <Grid item md={5} xs={12}>
+      <Grid container>
+        <Grid item md={6} xs={12}>
           <div className="services-intro-image">
             <img className="services-image" src={imgservice} alt="" />
           </div>
@@ -22,7 +22,7 @@ const Services = () => {
             </p>
           </div>
         </Grid>
-        <Grid item md={7} xs={12}>
+        <Grid item md={6} xs={12}>
           <div className="services-card">
             {[1, 2, 3, 4, 5, 6].map((item) => (
               <Card />

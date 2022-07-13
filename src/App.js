@@ -10,7 +10,7 @@ function App() {
     <>
       <Home />
       <Services />
-      {/* <Testimonial />  */}
+      <Testimonial /> 
       <Clients />
       <Footer />
     </>
