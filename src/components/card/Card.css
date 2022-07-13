@@ -11,6 +11,9 @@
    box-shadow: 2px 4px 6px gray;
     margin: 10px;
 }
+.cards:hover{
+    background-color: #eee;
+}
 .card-container{
 width: 140px;
 }

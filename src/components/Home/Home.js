@@ -6,7 +6,7 @@ import { Grid } from "@mui/material";
 const Home = () => {
   return (
     <section className="home-hero">
-      {/* <Navbar /> */}
+      <Navbar />
       <Grid container className="home-hero">
         <Grid item md={6} xs={12} className="home-content-container">
           <div>
