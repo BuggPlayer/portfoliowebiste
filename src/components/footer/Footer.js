@@ -25,10 +25,10 @@ const Footer = () => {
           </p>
 
           <div className="footer-icon-container">
-            <AiFillYoutube size={70} />
-            <AiOutlineInstagram size={70} />
-            <AiFillFacebook size={70} />
-            <AiFillLinkedin size={70} />
+            <AiFillYoutube size={40} />
+            <AiOutlineInstagram size={40} />
+            <AiFillFacebook size={40} />
+            <AiFillLinkedin size={40} />
           </div>
         </div>
       </div>
