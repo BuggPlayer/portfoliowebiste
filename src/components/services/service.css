@@ -1,5 +1,5 @@
 .services {
-margin: 5% 0;
+  margin: 5% 0;
 }
 .services-intro-image {
   display: flex;
@@ -8,10 +8,11 @@ margin: 5% 0;
   width: 500px;
   margin: 50px 90px;
 }
-.services-content-desc{
-margin: 20px 0;
+.services-content-desc {
+  margin: 20px 0;
 }
 .services-image {
+  margin-top: 10px;
   height: 350px;
   width: 100%;
   object-fit: contain;
